@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header for a clean and centered look */
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+/* Define the main content section with a maximum width, margin, padding, and styling */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 30px 30px 30px #ddd; /* Example shadow, adjust as needed */
+    border-radius: 5px;
+}
+
+/* Adjust the color of heading elements */
+h1, h2, h4 {
+    color: black;
+}
+
+/* Add a border and padding to h2 and h4 elements */
+h2, h4 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* Remove default styling for unordered lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Set margin for list items */
+li {
+    margin-bottom: 8px;
+}
+
+/* Apply specific styling to elements with the class 'skills' */
+.skills {
+    margin-top: 20px;
+}
+
+/* Style the footer with a centered text and contrasting colors */
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
